@@ -13,7 +13,7 @@
   <body>
     <header>
       <div class="header">
-        <div class="header__container">
+        <div class="header__container container">
           <div class="header__row">
             <div class="header__logo">
               <img src="./image/header/Logo.svg" alt="" />
@@ -75,7 +75,9 @@
                     <input type="text" />
                   </div>
                 </div>
-                <button class="section-top-search-form__search" type="submit">SEARCH</button>
+                <div class="section-top-search-form__search">
+                  <button type="submit">SEARCH</button>
+                </div>
               </form>
             </div>
           </div>
@@ -93,7 +95,7 @@
                 <div class="section-benefits-info__title">Welcome to Odigo!</div>
                 <div class="section-benefits-info__text-info">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.</div>
                 <div class="section-benefits-info__more-row row">
-                  <div class="section-benefits-info__learn-more">LEARN MORE</div>
+                  <a href="#" class="section-benefits-info__learn-more">LEARN MORE</a>
                   <div class="section-benefits-info__arrow">
                     <img src="./image/section-benefits/arrow.svg" alt="" />
                   </div>
@@ -106,7 +108,7 @@
                 <div class="section-benefits-info__title">Your Personal Japan Guide</div>
                 <div class="section-benefits-info__text-info">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.</div>
                 <div class="section-benefits-info__more-row row">
-                  <div class="section-benefits-info__learn-more">LEARN MORE</div>
+                  <a href="#" class="section-benefits-info__learn-more">LEARN MORE</a>
                   <div class="section-benefits-info__arrow">
                     <img src="./image/section-benefits/arrow.svg" alt="" />
                   </div>
@@ -119,7 +121,7 @@
                 <div class="section-benefits-info__title">Promoting Local Businesses</div>
                 <div class="section-benefits-info__text-info">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.</div>
                 <div class="section-benefits-info__more-row row">
-                  <div class="section-benefits-info__learn-more">LEARN MORE</div>
+                  <a href="#" class="section-benefits-info__learn-more">LEARN MORE</a>
                   <div class="section-benefits-info__arrow">
                     <img src="./image/section-benefits/arrow.svg" alt="" />
                   </div>
@@ -152,15 +154,15 @@
                 <p>Kyoto</p>
               </div>
 
-              <div class="section-trip-picture__image image-change">
+              <div class="section-trip-picture__image section-trip-picture__image--change">
                 <img src="./image/section-trip/section-trip-3.png" alt="" />
                 <p>Tokyo</p>
               </div>
-              <div class="section-trip-picture__image image-change">
+              <div class="section-trip-picture__image section-trip-picture__image--change">
                 <img src="./image/section-trip/section-trip-4.png" alt="" />
                 <p>Niigata</p>
               </div>
-              <div class="section-trip-picture__image image-change">
+              <div class="section-trip-picture__image section-trip-picture__image--change">
                 <img src="./image/section-trip/section-trip-5.png" alt="" />
                 <p>Sapporo</p>
               </div>
@@ -179,29 +181,21 @@
               <div class="section-prefecture-info__text">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door,</div>
               <div class="section-prefecture-info__more section-prefecture-info-more">
                 <div class="section-prefecture-info-more__all">VIEW PREFECTURE</div>
-                <div class="section-prefecture-info-more__arrow">
-                  <img src="./image/section-benefits/arrow.svg" alt="" />
-                </div>
+                <img class="section-prefecture-info-more__arrow" src="./image/section-benefits/arrow.svg" alt="" />
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="section-prefecture-featured">
-        <div class="section-prefecture__container container">
-          <div class="section-prefecture__row row section-prefecture__row-change">
+          <div class="section-prefecture__row section-prefecture__row--reverse row">
+            <div class="section-prefecture__image">
+              <img src="./image/prefecture/prefecture.png" alt="" />
+            </div>
             <div class="section-prefecture__info section-prefecture-info">
               <div class="section-prefecture-info__title">Prefecture in Focus: Tottori</div>
               <div class="section-prefecture-info__text">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door,</div>
               <div class="section-prefecture-info__more section-prefecture-info-more">
                 <div class="section-prefecture-info-more__all">VIEW PREFECTURE</div>
-                <div class="section-prefecture-info-more__arrow">
-                  <img src="./image/section-benefits/arrow.svg" alt="" />
-                </div>
+                <img class="section-prefecture-info-more__arrow" src="./image/section-benefits/arrow.svg" alt="" />
               </div>
-            </div>
-            <div class="section-prefecture__image">
-              <img src="./image/featured/featured.png" alt="" />
             </div>
           </div>
         </div>
@@ -353,9 +347,9 @@
         </div>
       </div>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="footer__wrapper">
-        <div class="footer__container">
+        <div class="footer__container container">
           <div class="footer__row row">
             <div class="footer__logo">
               <img src="./image/footer/footer-logo.svg" alt="" />

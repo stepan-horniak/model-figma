@@ -5,9 +5,6 @@ body {
 	max-width: 1290px;
 	padding: 0 15px;
 	margin: 0 auto;
-	@media (max-width: 767px) {
-		padding: 0 5px;
-	}
 }
 .row {
 	display: flex;
